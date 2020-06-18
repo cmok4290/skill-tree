@@ -3,7 +3,7 @@
 ![level](https://img.shields.io/badge/level-1-informational?style=flat)
 [![quests](https://img.shields.io/badge/quests-2-informational?style=flat)](#quests)
 [![skills](https://img.shields.io/badge/skills-8-informational?style=flat)](#skills)
-[![license](https://img.shields.io/badge/license-MIT-important?style=flat)](https://github.com/cmok4290/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-important?style=flat)](https://github.com/cmok4290/skill-tree/blob/master/LICENSE)
 
 
 ## What is this repo?
