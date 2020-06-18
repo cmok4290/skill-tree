@@ -1,8 +1,8 @@
 # skill-tree
 
 ![level](https://img.shields.io/badge/level-1-informational?style=flat)
-![quests](https://img.shields.io/badge/quests-1-informational?style=flat)
-![skills](https://img.shields.io/badge/skills-0-informational?style=flat)
+![quests](https://img.shields.io/badge/quests-2-informational?style=flat)
+![skills](https://img.shields.io/badge/skills-8-informational?style=flat)
 [![license](https://img.shields.io/badge/license-MIT-important?style=flat)](https://github.com/cmok4290/blob/master/LICENSE)
 
 
@@ -25,5 +25,5 @@ A collection of experiences, quests, and skills on my journey to become a highly
 
 ## Web Development
 
-![css](https://img.shields.io/badge/css-1%-success?style=flat)
-![html](https://img.shields.io/badge/html-1%-success?style=flat)
+![css](https://img.shields.io/badge/css-1%25-success?style=flat)
+![html](https://img.shields.io/badge/html-1%25-success?style=flat)
