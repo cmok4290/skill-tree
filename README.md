@@ -37,3 +37,7 @@ A collection of experiences, quests, and skills on my journey to become a highly
 
 ![css](https://img.shields.io/badge/css-1%25-success?style=flat)
 ![html](https://img.shields.io/badge/html-1%25-success?style=flat)
+
+## License
+
+[MIT](https://github.com/cmok4290/skill-tree/blob/master/LICENSE)
