@@ -1,4 +1,7 @@
 {
+    "laminas/laminas-dependency-plugin": {
+        "version": "1.0.4"
+    },
     "php": {
         "version": "7.2"
     },
