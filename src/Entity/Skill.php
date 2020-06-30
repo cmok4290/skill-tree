@@ -5,12 +5,15 @@ namespace App\Entity;
 use ApiPlatform\Core\Annotation\ApiResource;
 use App\Repository\SkillRepository;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Serializer\Annotation\Groups;
 
 /**
  * @ApiResource(
  *     shortName="skills",
  *     collectionOperations={"get", "post"},
- *     itemOperations={"get", "put"}
+ *     itemOperations={"get", "put"},
+ *     normalizationContext={"groups"={"skills:read"}},
+ *     denormalizationContext={"groups"={"skills:write"}}
  * )
  * @ORM\Entity(repositoryClass=SkillRepository::class)
  */
@@ -25,16 +28,19 @@ class Skill
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"skills:read", "skills:write"})
      */
     private $title;
 
     /**
      * @ORM\Column(type="text")
+     * @Groups({"skills:read", "skills:write"})
      */
     private $description;
 
     /**
      * @ORM\Column(type="integer")
+     * @Groups({"skills:read", "skills:write"})
      */
     private $quantity;
 
