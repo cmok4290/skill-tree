@@ -29,18 +29,29 @@ class Skill
     /**
      * @ORM\Column(type="string", length=255)
      * @Groups({"skills:read", "skills:write"})
+     * @Assert\NotBlank()
+     * @Assert\Length(
+     *     min=2,
+     *     max=50,
+     *     maxMessage="Label your skill in 50 chars or less"
+     * )
      */
     private $title;
 
     /**
      * @ORM\Column(type="text")
      * @Groups({"skills:read", "skills:write"})
+     * @Assert\NotBlank()
      */
     private $description;
 
     /**
      * @ORM\Column(type="integer")
      * @Groups({"skills:read", "skills:write"})
+     * @Assert\NotBlank()
+     * @Assert\GreaterThan(
+     *     value = -1
+     * )
      */
     private $quantity;
 
