@@ -54,6 +54,14 @@ class Skill
      */
     private $updatedAt;
 
+    // server should set it automatically
+    public function __construct(string $title = null)
+    {
+        $this->title = $title;
+        $this->createdAt = new \DateTimeImmutable();
+        $this->updatedAt = new \DateTimeImmutable();
+    }
+
     public function getId(): ?int
     {
         return $this->id;
@@ -98,13 +106,6 @@ class Skill
     public function getCreatedAt(): ?\DateTimeInterface
     {
         return $this->createdAt;
-    }
-
-    // server should set it automatically
-    public function __construct()
-    {
-        $this->createdAt = new \DateTimeImmutable();
-        $this->updatedAt = new \DateTimeImmutable();
     }
 
     public function getUpdatedAt(): ?\DateTimeInterface
